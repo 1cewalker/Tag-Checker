@@ -29,7 +29,7 @@ i.e. there is either an unmatched opening tag or no matching closing tag at the 
 the tag or closing tag with #. These points are illustrated in the examples below which should be followed exactly
 as far as spacing is concerned.
 
-###Sample Input
+### Sample Input
 - The following text<C><B>is centred and in boldface</B></C>
 - <B>This <\g>is <B>boldface</B> in <<*> a</B> <\6> <<d>sentence
 - <B><C> This should be centred and in boldface, but the
@@ -39,7 +39,7 @@ tag</B></C>
 - <B><C>This should be centred and in boldface, but there is
 a missing closing tag</C>
 
-####Sample Output
+### Sample Output
 Correctly tagged paragraph
 Correctly tagged paragraph
 Expected </C> found </B>
