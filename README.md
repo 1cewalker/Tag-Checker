@@ -40,8 +40,8 @@ tag\</B>\</C>
 a missing closing tag\</C>
 
 ### Sample Output
-Correctly tagged paragraph
-Correctly tagged paragraph
-Expected \</C> found \</B>
-Expected # found \</C>
-Expected \</B> found #
+- Correctly tagged paragraph
+- Correctly tagged paragraph
+- Expected \</C> found \</B>
+- Expected # found \</C>
+- Expected \</B> found #
